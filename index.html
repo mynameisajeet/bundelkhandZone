@@ -19,6 +19,7 @@
 			transform: perspective(1000px) rotateY(0deg);
 			transition: transform 0.5s;
 			height: 180px;
+			flex-direction: column;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -30,39 +31,191 @@
 		.card:hover {
 			transform: perspective(1000px) rotateY(10deg);
 		}
+		.card img {
+      width: 100px; /* adjust logo size */
+      height: 100px; /* adjust logo size */
+      margin-bottom: 10px;
+    }
+    
+    .card .card-text {
+      font-size: 18px; /* adjust text size */
+    }
 	</style>
 </head>
 <body>
 	<h1 style="text-align: center; margin-bottom: 20px;">Bundelkhand Zone Polytechnics</h1>
 	<div class="container">
-		<a href="http://www.gpkanpur.co.in/" class="card">3012	GOVT. POLYTECHNIC, KANPUR</a>
-		<a href="https://gpkulpahad.org/" class="card">3043	GOVT. POLYTECHNIC,KULPAHAD, MAHOBA(PPP MODE)</a>
-		<a href="https://www.gpjhansi.org/" class="card">3301	GOVT. POLYTECHNIC, JHANSI</a>
-		<a href="http://www.ggpjhansi.com/" class="card">3302	VERANGANA JHALKARIBAI GOVT. GIRLS POLYTECHNIC, JHANSI</a>
-		<a href="http://www.gpetawah.in/" class="card">3303	GOVT. POLYTECHNIC, ETAWA</a>
-		<a href="http://www.gporai.in/" class="card">3304	GOVT. POLYTECHNIC, ORAI (JALAUN)</a>
-		<a href="http://www.gpbanda.co.in/" class="card">3305	GOVT. POLYTECHNIC, BANDA</a>
-		<a href="http://gpfbd.in/" class="card">3306	GOVT. POLYTECHNIC, FARRUKHABAD</a>
-		<a href="https://www.glikanpur.com/" class="card">3307	GOVT. LEATHER INSTITUTE, KANPUR</a>
-		<a href="https://www.gpghatampur.com/" class="card">3308	GOVT. POLYTECHNIC, GHATAMPUR, KANPUR</a>
-		<a href="https://gplalitpur.com/" class="card">3309	GOVT. POLYTECHNIC, LALITPUR</a>
-		<a href="https://gpmanikpur.in/" class="card">3310	GOVT. POLYTECHNIC, MAHOBA</a>
-		<a href="http://www.ggpcharkhari.in/" class="card">3317	GOVT. GIRLS POLYTECHNIC, CHARKHARI MAHOBA</a>
-		<a href="https://gpmadhogarh.in/" class="card">3318	GOVT. POLYTECHNIC, MADHOGARH JALAUN</a>
-		<a href="https://gpnaraini.com/" class="card">3319	GOVT. POLYTECHNIC, NARAINI, BANDA</a>
-		<a href="https://gpmanikpur.in/" class="card">3320	GOVT. POLYTECHNIC, MANIKPUR, CHITRAKOOT</a>
-		<a href="https://www.gpsumerpur.in/" class="card">3321	GOVT. POLYTECHNIC, HAMIRPUR</a>
-		<a href="https://www.gpauraiya.com/" class="card">3331	BABA SAHEB BHEEMRAO AMBEDKAR GOVT POLYTECHNIC, AURAIYYA</a>
-		<a href="http://www.mkgpkannauj.in/" class="card">3332	MANYAWAR KANSHIRAM GOVT. POLYTECHNIC, KANNAUJ</a>
-		<a href="https://gpsikandra.com/" class="card">3338	GOVT. POLYTECHNIC, SIKANDARA, KANPUR DEHAT</a>
-		<a href="http://gpbargarh.in/" class="card">3339	GOVT. POLYTECHNIC, BARGARH, CHITRAKOOT</a>
-		<a href="https://governmentpolytechnictalbehat.com/" class="card">3340	GOVT. POLYTECHNIC, TALBEHAT, LALITPUR</a>
-		<a href="https://gprath.in/" class="card">3341	GOVT. POLYTECHNIC,SARSAI,RATH, HAMIRPUR</a>
-		<a href="http://www.mmitkanpurdehat.in/" class="card">3351	MAHAMAYA POLYTECHNIC OF INFORMATION TECHNOLOGY KANPUR DEHAT</a>
-		<a href="https://www.mmitauraiya.com/" class="card">3352	MAHAMAYA POLYTECHNIC OF INFORMATION TECHNOLOGY AURAIYA</a>
-		<a href="https://mmitkannauj.in/" class="card">3353	MAHAMAYA POLYTECHNIC OF INFORMATION TECHNOLOGY KANNOUJ</a>
-		<a href="#" class="card">3445	GOVERNMENT POLYTECHNIC KURARA HAMIRPUR (PPP MODE)</a>
-		<a href="#" class="card">3446	GOVERNMENT POLYTECHNIC KAIMGANJ FARRUKHABAD (PPP MODE)</a>
+		<a href="http://www.gpkanpur.co.in/" class="card">
+			<img src="logo1.png" alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			
+			3012	GOVT. POLYTECHNIC, KANPUR</a>
+		<a href="https://gpkulpahad.org/" class="card">
+			<img src="logo1.png" alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3043	GOVT. POLYTECHNIC,KULPAHAD, MAHOBA(PPP MODE)</a>
+		<a href="https://www.gpjhansi.org/" class="card">
+			<img src="logo1.png" alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3301	GOVT. POLYTECHNIC, JHANSI</a>
+		<a href="http://www.ggpjhansi.com/" class="card">
+			<img src="logo1.png" alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			
+			3302	VERANGANA JHALKARIBAI GOVT. GIRLS POLYTECHNIC, JHANSI</a>
+		<a href="http://www.gpetawah.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			
+			3303	GOVT. POLYTECHNIC, ETAWA</a>
+		<a href="http://www.gporai.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3304	GOVT. POLYTECHNIC, ORAI (JALAUN)</a>
+		<a href="http://www.gpbanda.co.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3305	GOVT. POLYTECHNIC, BANDA</a>
+		<a href="http://gpfbd.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3306	GOVT. POLYTECHNIC, FARRUKHABAD</a>
+		<a href="https://www.glikanpur.com/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3307	GOVT. LEATHER INSTITUTE, KANPUR</a>
+		<a href="https://www.gpghatampur.com/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3308	GOVT. POLYTECHNIC, GHATAMPUR, KANPUR</a>
+		<a href="https://gplalitpur.com/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3309	GOVT. POLYTECHNIC, LALITPUR</a>
+		<a href="https://gpmanikpur.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3310	GOVT. POLYTECHNIC, MAHOBA</a>
+		<a href="http://www.ggpcharkhari.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3317	GOVT. GIRLS POLYTECHNIC, CHARKHARI MAHOBA</a>
+		<a href="https://gpmadhogarh.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3318	GOVT. POLYTECHNIC, MADHOGARH JALAUN</a>
+		<a href="https://gpnaraini.com/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3319	GOVT. POLYTECHNIC, NARAINI, BANDA</a>
+		<a href="https://gpmanikpur.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3320	GOVT. POLYTECHNIC, MANIKPUR, CHITRAKOOT</a>
+		<a href="https://www.gpsumerpur.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3321	GOVT. POLYTECHNIC, HAMIRPUR</a>
+		<a href="https://www.gpauraiya.com/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3331	BABA SAHEB BHEEMRAO AMBEDKAR GOVT POLYTECHNIC, AURAIYYA</a>
+		<a href="http://www.mkgpkannauj.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3332	MANYAWAR KANSHIRAM GOVT. POLYTECHNIC, KANNAUJ</a>
+		<a href="https://gpsikandra.com/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3338	GOVT. POLYTECHNIC, SIKANDARA, KANPUR DEHAT</a>
+		<a href="http://gpbargarh.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3339	GOVT. POLYTECHNIC, BARGARH, CHITRAKOOT</a>
+		<a href="https://governmentpolytechnictalbehat.com/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3340	GOVT. POLYTECHNIC, TALBEHAT, LALITPUR</a>
+		<a href="https://gprath.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3341	GOVT. POLYTECHNIC,SARSAI,RATH, HAMIRPUR</a>
+		<a href="http://www.mmitkanpurdehat.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3351	MAHAMAYA POLYTECHNIC OF INFORMATION TECHNOLOGY KANPUR DEHAT</a>
+		<a href="https://www.mmitauraiya.com/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3352	MAHAMAYA POLYTECHNIC OF INFORMATION TECHNOLOGY AURAIYA</a>
+		<a href="https://mmitkannauj.in/" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3353	MAHAMAYA POLYTECHNIC OF INFORMATION TECHNOLOGY KANNOUJ</a>
+		<a href="#" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3445	GOVERNMENT POLYTECHNIC KURARA HAMIRPUR (PPP MODE)</a>
+		<a href="#" class="card">
+			<img src="logo." alt="">
+      			<div class="card-text"></div>
+			<div class="card-text"></div>
+			<div class="card-text"></div>
+			3446	GOVERNMENT POLYTECHNIC KAIMGANJ FARRUKHABAD (PPP MODE)</a>
 		
 		
 		
